@@ -1,0 +1,23 @@
+[
+  {
+    "data1":
+    [
+      {"img":"../../../static/img/5af0647bNca23c27c.jpg","price":18.8,"dprice":600},
+      {"img":"../../../static/img/eea7b244c6216d94.jpg","price":9.8,"dprice":30},
+      {"img":"../../../static/img/5a163b9aN8358ffc1.jpg","price":29.9,"dprice":80}
+    ],
+    "data2":
+    [
+      {"title":"发现好货","subtitle":"哇哈哈哈 女人必备","img1":"../../../static/img/5b680170N16d8e144.jpg","img2":"../../../static/img/5b764475N507893e3.jpg"}
+    ],
+    "data3":
+    [
+      {"title":"品牌秒杀","subtitle":"高品质生活","img":"../../../static/img/5ab4c680N7d291625.jpg"},
+      {"title":"品类秒杀","subtitle":"电竞力荐","img":"../../../static/img/5b1209f1Na21d3331.jpg"}
+    ],
+    "data4":
+    [
+      {"title":"会买专辑","subtitle":"精选全攻略 吃货看这里！","img1":"../../../static/img/5b063c38N5ad400c1.jpg","img2":"../../../static/img/5b3d7e73Nd770de60.jpg"}
+    ]
+  }
+]

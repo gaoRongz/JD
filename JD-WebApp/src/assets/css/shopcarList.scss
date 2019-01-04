@@ -1,0 +1,75 @@
+@charset "utf-8";
+#content{
+margin-bottom: 5.3rem;
+}
+.rowBox{
+  width:100%;color: #111;letter-spacing: .1em;margin-bottom: 2rem;
+  .merchant{
+    width:100%;
+    display: flex;
+    align-items: center;
+    -ms-text-align-last: left;
+    text-align-last: left;
+    font-size: 1.3rem;
+    font-weight: bold;
+    input{
+      margin-right:.5rem;
+    }
+    .fir{
+      font-weight: normal;
+      font-size: 1.6rem;margin-right: .2rem;
+    }
+    .las{
+      font-size: .8rem;margin-left: .6rem;
+    }
+  }
+  .shopducts{
+      display: flex;
+    .checkbox{
+      display: flex;margin-top: 1.5rem;
+      input{
+        margin: auto; margin-right:.5rem;
+      }
+    }
+    .shopductsBox{
+      background-color: #fff;display: flex;padding:1.2rem .9rem;box-shadow: 1px 1px 6px #ddd;margin-top: 1.5rem;width: 100%;
+      img{
+        width: 8rem; height: 8rem;margin-right: .5rem;
+      }
+      .textBox{
+        display: flex;flex-direction: column;justify-content:space-between;position: relative;flex:1;
+        .title{
+            font-size:1.1rem;
+        }
+        .sub-title{
+          display: flex;
+          div:first-child{
+            white-space: nowrap;text-overflow: ellipsis;overflow: hidden;
+            flex:80%;
+          }
+          div:last-child{
+            color: #999; flex:20%;text-align: right;
+          }
+        }
+        .foo{
+          display: flex;width: 100%;
+          .d-price-style{
+            color:#dc3d27;font-weight:700;letter-spacing: normal;
+            span{
+              font-size: 1.4rem;
+            }
+          }
+          .addm{
+            margin-left: auto;
+            input{
+              width:4rem;margin: 0 .2rem;text-align: center;border: 0;background-color: #eee;height: 2rem;
+            }
+            i{
+              font-weight: bolder;
+            }
+          }
+        }
+      }
+    }
+  }
+}

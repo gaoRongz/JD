@@ -1,0 +1,50 @@
+@charset "utf-8";
+.f-r .no-r-border:last-child{
+  border-right: none;
+}
+.f-c, .spec{
+  .row>div{
+    border-right:.2rem solid  #f5f5f5;
+  }
+  .title-wrap{
+    margin-bottom:1rem;
+  }
+  .fle-au{
+    line-height: 16px;
+    img{
+      width: 4.5rem !important;
+      height: 4.5rem !important;
+      margin-bottom: .2rem;
+    }
+    .d-con{
+      font-size: 1rem;
+    }
+    .d-con, .d-price{
+      font-weight: bolder;color:#333;
+    }
+    .d-coon, .d-door-price{
+      color:#929292;font-weight: normal;
+    }
+    p{
+      position: relative;
+      .slid-c{
+        position: absolute;border-top:.1rem solid #929292 ;width:3rem;top:.8rem;left:1rem;
+      }
+    }
+  }
+  .ss{
+    line-height: 20px;//letter-spacing: 1px;
+    h4{
+      font-weight: 400;background: linear-gradient(to right, red, yellow);color: transparent; -webkit-background-clip: text;
+    }
+    h4:last-child{
+      background: linear-gradient(to right, red, #0ff);color: transparent; -webkit-background-clip: text;
+    }
+      img{
+        width:5.5rem;height:5.5rem;
+      }
+    p{
+      color:#333;margin-bottom: 1rem;font-size: 1.2rem;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+.dayShoping{
+  .big-title{
+    background: -webkit-linear-gradient(left,#D400FF,#FF320A);
+    background: linear-gradient(90deg, #D400FF,#FF320A);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.6rem;
+  }
+  p{
+    color: #999898 !important;
+  }
+  .color-title{
+    background: -webkit-linear-gradient(left,#FE8537,#F02B2B);
+    background: linear-gradient(90deg, #FE8537,#F02B2B);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.5rem;
+  }
+}

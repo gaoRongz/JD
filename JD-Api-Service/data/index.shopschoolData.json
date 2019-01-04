@@ -1,0 +1,80 @@
+[
+  {
+    "dd1":
+    [
+    {
+      "bigtitle": "校园专区",
+      "title": "学生权益",
+      "subtitle": "9.9包邮 海量学生专属商品",
+      "img1": "../../static/img/5a1bd4f4Nf02c806f.jpg",
+      "img2": "../../static/img/eea7b244c6216d94.jpg"
+    },
+    {
+      "title": "同学都在买",
+      "subtitle": "潮流购物风尚 本校排行",
+      "img1": "../../static/img/58217133Nea17eb2b.jpg",
+      "img2": "../../static/img/5b87bf15N9409ba0e.png"
+    }
+  ],
+    "dd2":
+    [
+      {
+        "title": "机不离手",
+        "subtitle": "最潮的手机",
+        "img1": "../../static/img/5ac463b1N3480d6c7.jpg"
+      },
+      {
+        "title": "我的大学",
+        "subtitle": "满199减100",
+        "img1": "../../static/img/568f56f4N51dbec26.jpg"
+      },
+      {
+        "title": "分期商城",
+        "subtitle": "任性免息",
+        "img1": "../../static/img/5bc6a023N974928b4.jpg"
+      },
+      {
+        "title": "数码专区",
+        "subtitle": "潮流看这里",
+        "img1": "../../static/img/574d9d9aNe4e6fa7a.jpg"
+      }
+    ]
+  },
+  {
+    "dd1":
+    [
+      {
+        "bigtitle": "每日逛",
+        "title": "闪购",
+        "subtitle": "品牌特卖",
+        "img1": "../../static/img/5a698c01Nab864629.jpg",
+        "img2": "../../static/img/5a163b9aN8358ffc1.jpg"
+      },
+      {
+        "title": "排行榜",
+        "subtitle": "看看大家都在买什么",
+        "img1": "../../static/img/5a56fd19N80f5a210.jpg",
+        "img2": "../../static/img/5ac9aed4Nb1dc9774.jpg"
+      }
+    ],
+    "dd2":
+    [
+      {
+        "title": "型男攻略",
+        "subtitle": "火爆开枪",
+        "img1": "../../static/img/5a6b0e2dN3bd30644.jpg",
+        "img2": "../../static/img/5be45379N0f7ae3eb.jpg"
+      },
+      {
+        "title": "京东精选",
+        "subtitle": "低至五折",
+        "img1": "../../static/img/5b1209f1Na21d3331.jpg"
+      },
+      {
+        "title": "新品首发",
+        "subtitle": "低至五折",
+        "img1": "../../static/img/e55c2fb826efe911.jpg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,202 @@
+@charset "utf-8";
+.login{
+  input {
+    font-size: 1.6rem;
+  }
+  background-color: #fff;
+  .login-header{
+    display: flex;position:relative;height: 4.4rem;padding:0 2rem;
+    line-height: 4.4rem;align-items: center;
+    background: #fff;font-size: 1.7rem;color: #333;
+    .iic{
+      position: absolute;font-weight: bolder;
+    }
+    p{
+      margin: auto;
+    }
+  }
+  .login-content{
+    padding:2.5rem;padding-top: 0;
+    .roww{
+      input{
+        width: 100%;
+      }
+    }
+  }
+  .wrap {
+    max-width: 75rem;
+    margin: 0 auto;
+  }
+
+.login-wrap {
+  display: none;
+}
+.login-wrap-active {
+  display: block;
+}
+input {
+  line-height: normal;
+  border-radius: 0;
+  border: 0;
+}
+.input-container {
+  height: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  overflow: hidden;
+  margin-top: 2rem;
+  background: #fff;
+  border-bottom: 1px solid #efefef;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.acc-input {
+  width: 100%;
+  height: 100%;
+  color: #222;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: PingFangSC-Semibold;
+}
+.username {
+  width: 100%;
+  padding: 0 3rem 0 0;
+}
+.password {
+  width: 100%;
+  padding: 0 15rem 0 0;
+}
+.label-checkbox {
+  position: absolute;
+  right: 0;
+  top:1.3rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  overflow: hidden;
+  z-index: 99;
+}
+.label-checkbox {
+  right: 9rem;
+}
+.findpwd {
+  position: absolute;
+  height: 2.3rem;
+  line-height: 2.3rem;
+  right: 0;
+  top: 1.25rem;
+  background-color: #fff;
+  color: #222;
+  font-size: 1.4rem;
+  border: 0;
+  outline: 0;
+  border-radius: 2px;
+  text-align: center;
+  padding-left: 1.6rem;
+  border-left: 1px solid #ccc;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.notice {
+  font-size: 1.4rem;
+  line-height: 3rem;
+  color: #f23030;
+  min-height: 1.5rem;
+  text-align: left;
+}
+.btn {
+  box-shadow: none;
+}
+.btn {
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+  display: block;
+  background-color: #efefef;
+  border-radius: 2.5rem;
+  font-size: 1.6rem;
+  color: #fff;
+  background-image: linear-gradient(90deg,#fab3b3,#ffbcb3 73%,#ffcaba);
+  box-shadow: 0 1rem 2rem 0 rgba(255,62,62,.2);
+  text-align: center;
+  font-family: PingFangSC-Semibold;
+}
+.btn-onestep:active, .btn-onestep:hover, .btn-onestep:visited {
+  color: #f23030!important;
+}
+.btn-onestep {
+  box-sizing: border-box;
+  border: 1px solid #ff2000;
+  color: #f10000;
+  background: #fff;
+  margin-top: 1rem;
+}
+.quick-login a, .quick-nav a {
+  display: inline-block;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.quick-nav {
+  margin-top: 2rem;
+  text-align: center;
+}
+.quick-nav a {
+  color: #999;
+  line-height: 2.2rem;
+  font-family: PingFang-SC-Regular;
+}
+.quick-nav a:first-child {
+  float: left;
+}
+.quick-nav a:last-child {
+  float: right;
+}
+.login-type {
+  margin-top: 8.8rem;
+}
+.quick-login {
+  height: 8rem;
+  position: relative;
+  padding: 2.45rem 0 0;
+  border-top: 1px solid #efefef;
+  text-align: center;
+}
+.quick-login h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  position: absolute;
+  top: -1.4rem;
+  left: 50%;
+  background-color: #fff;
+  padding: .05rem 1.5rem;
+  color: #ccc;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.quick-login a {
+  position: relative;
+  width: 4.8rem;
+  height: 4.8rem;
+  color: #616161;
+  margin: 0 1.5rem;
+  font-size: 1.4rem;
+}
+.quick-login span {
+  position: absolute;
+  bottom: -2.3rem;
+  left: 0;
+  display: inline-block;
+  width: 4.8rem;
+  text-align: center;
+  color: #999;
+  font-size: 1.2rem;
+}
+.agreement-tips {
+  margin-top: 1.2rem;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #bebebe;
+}
+}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+.shopSchool{
+  .big-title{
+    background: -webkit-linear-gradient(to left,#00C2AB,#3E94FF);
+    background: linear-gradient(to right, #00C2AB,#3E94FF);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.6rem;
+  }
+  p{
+    color: #999898 !important;
+  }
+  .color-title{
+    background: -webkit-linear-gradient(left,#FF765C,#FF23B3);
+    background: linear-gradient(90deg, #FF765C,#FF23B3);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.5rem;
+  }
+}
+.shopSchool:last-child{
+    .big-title{
+      background: -webkit-linear-gradient(left,#D400FF,#FF320A);
+      background: linear-gradient(90deg, #D400FF,#FF320A);
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 1.6rem;
+    }
+    p{
+      color: #999898 !important;
+    }
+    .color-title{
+      background: -webkit-linear-gradient(left,#FE8537,#F02B2B);
+      background: linear-gradient(90deg, #FE8537,#F02B2B);
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 1.5rem;
+    }
+}

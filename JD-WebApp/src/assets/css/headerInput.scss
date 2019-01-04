@@ -1,0 +1,64 @@
+@charset "utf-8";
+$wt:#fff;
+.nav-box {
+  padding: .8rem;
+  display: flex;
+  z-index: 333;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  a {
+    display: flex;
+    flex-direction: column;
+    width: 3.8rem;
+    height: 3.8rem;
+   // background-color: rgba(0, 0, 0, 0.3);
+   // color: $wt;
+    border-radius: 50%;
+    line-height: 1rem;
+    span {
+      font-size: .8rem;
+      margin: 0 auto;
+    }
+  }
+  a:last-child {
+    margin-left: auto !important;
+  }
+  .input-box {
+    flex: 1;
+    margin: 0 1.1rem;
+    position: relative;
+    input {
+      border-radius: 2rem;
+      border: 0;
+      padding: .5rem 3.5rem;
+      height: 100%;
+      width: 100%;
+    }
+    .lr-box {
+      position: absolute;
+      min-width: 3.5rem;
+      height: 100%;
+      display: flex;
+      top: 0;
+    }
+    .search-box {
+      left: 0;
+      i {
+        font-size: 1.9rem;
+        color: #9b9b9b;
+        margin: auto;
+        font-weight: 600;
+      }
+    }
+    .dingdong-box {
+      right: 0;
+      img {
+        width: 1.9rem;
+        height: 2.1rem;
+        margin: auto;
+      }
+    }
+  }
+}
